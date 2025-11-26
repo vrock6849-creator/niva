@@ -82,6 +82,7 @@ body {
 
 .collection-section {
     background-color: #F8F6F3;
+    scroll-margin-top: 100px;
 }
 
 .collection-head {
@@ -151,14 +152,115 @@ body {
 
 .banner-img {
     height: 75vh;
+    width: 95%;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.collection-section-card {
     text-align: center;
 }
 
-.collection-section-card{
-   background-color: ;
-}
-.banner-img-headind{
+.banner-img-headind {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #857D75;
-    margin-right: 100px;
+    text-align: center;
+    color: #342719;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.collections-head {
+    color: #342719;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+    scroll-margin-top: 100px;
+    margin-top: 15px;
+}
+
+.reviews-img {
+    height: 40vh;
+    border-radius: 50px;
+}
+
+.reviews-heading {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 38px;
+    color: #332D18;
+}
+
+.reviews-paragraph {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 15px;
+    color: #47422F;
+}
+
+.about-heading {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 38px;
+    color: #053545;
+}
+
+.about-paragraph {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 15px;
+    color: #47422F;
+}
+
+.list-footer {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.list-footer:hover {
+    color: #ffde59;
+    transition: #ffde59 1s ease;
+}
+
+.list-footer-heading {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-heading {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 25px;
+}
+
+.footer {
+    background-color: #3C2828;
+}
+
+.list-footers {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-decoration: none;
+    margin-top: 120px;
+    padding: 25px;
+    list-style: none;
+}
+
+.list-footers:hover {
+    color: #ffde59;
+    transition: #ffde59 0.4s ease;
 }
